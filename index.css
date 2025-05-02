@@ -1,0 +1,217 @@
+* {
+    padding: 0px;
+    margin: 0px;
+  
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(back-imgg.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: f5f5f5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    flex-direction: column;
+}
+#nameofgame{
+
+    color: #fed766;
+    margin-top: 1px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    height: 4rem;
+    width: 100%;
+
+}
+#note{
+    /* background-color: #fed766; */
+    color: #fed766;
+    margin-top: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: 600;
+}
+ 
+.choice{
+    /* background-color: #fed766; */
+    width: 600px;
+    height: 180px;
+    border-radius: 7px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+#rock{
+    object-fit: cover;
+    background-image: url(Rock.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 3rem;
+}
+#rock-name{
+    background-color: hsl(45, 99%, 70%);
+    border-radius: 5px;
+    width: 80px;
+    height: 25px;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 2.3rem;
+}
+#paper{
+    background-image: url(paper.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-color: aliceblue;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+ 
+    margin-right: 2rem;
+}
+#paper-name{
+    background-color: #fed766;
+    border-radius: 5px;
+    width: 80px;
+    height: 25px;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-left: 2.5rem;
+   
+}
+#scissor{
+    background-image: url(scissors.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-color: aliceblue;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+#scissor-name{
+    background-color: #fed766;
+    border-radius: 5px;
+    width: 80px;
+    height: 25px;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 2.8rem;
+   
+}
+.counter{
+    margin-top: 3rem;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+#user{
+    background-color: rgb(237, 196, 146);
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-around;
+    border-radius: 40px;
+    border: 2px solid bisque;
+    font-size: 3rem;
+
+}
+#computer{
+    background-color: rgb(237, 196, 146);
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-around;
+    border-radius: 40px;
+    border: 2px solid bisque;
+    font-size: 3rem;
+}
+.scorrer-name{
+    margin-top: 0.5rem;
+    text-decoration: red underline;
+    color: azure;
+}
+
+.massage{
+   background-color: #fed766;
+    margin-top: 1rem;
+    width: 20rem;
+    height: 2.2rem;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#reset {
+    margin-top: 1rem;
+    background-color: #fed766;
+    width: 7rem;
+    height: 2rem;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
