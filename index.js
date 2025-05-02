@@ -35,7 +35,6 @@ const showWinner = (compchoice,userchoice,userWin) => {
         user.innerText = userscore;
         massage.style.backgroundColor = "green";
     }else{
-        console.log("computer was win");
         msg.innerText = `You lose! your ${compchoice} beats ${userchoice}`;
         computrscore++;
         computer.innerText = computrscore;
@@ -44,9 +43,7 @@ const showWinner = (compchoice,userchoice,userWin) => {
 }
 
 const playgame = (userchoice)=>{
-    console.log("userchoice =" ,userchoice);
     const compchoice = gencompchoice();
-    console.log("compuchoice = " ,compchoice);
 
     //if else condition
 
@@ -81,6 +78,8 @@ choices.forEach((choice) =>{
     user.innerText = userscore;
     computrscore = 0;
     computer.innerText = computrscore;
+    msg.innerText = "Play Your move.";
+    massage.style.backgroundColor = "#fed766";
 
    })
 

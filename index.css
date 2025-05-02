@@ -10,6 +10,11 @@ body{
     height: 100vh;
     width: 100vw;
     background-image: url(back-imgg.avif);
+    /* background: linear-gradient(-45deg, #ff6ec4, #7873f5, #3ddad7, #f9f871);
+    background: linear-gradient(-45deg, #8e2de2, #4a00e0, #1e90ff, #00dbde);
+    background: linear-gradient(-45deg, #ff7e5f, #feb47b, #ff6e7f, #bfe9ff);
+    background: linear-gradient(-45deg, #00c9ff, #92fe9d, #00d2ff, #3a7bd5); */
+    background: linear-gradient(-45deg, #1f1c2c, #928dab, #3a3a52, #2b5876);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
